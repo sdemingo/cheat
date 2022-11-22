@@ -1,0 +1,13 @@
+# Teclas de irssi/irc
+
+# Comandos
+ /quit              salir de la aplicación
+ /who <canal>       mostrar información de un canal
+ /whois <nick>      mostrar información de un nick
+ /wc                cierra el chat y la ventana actual
+
+
+# Teclas
+ Atl →          Carga la ventana de la derecha
+ Alt ←          Carga la ventana de la izquierda
+ Alt N          Carga la ventana número N

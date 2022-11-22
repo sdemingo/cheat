@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+then
+    ls *.* | sed 's/.txt//g'
+    exit
+fi
+
+
+if [ $# -eq 1 ]
+then
+    cat $1.txt 2>/dev/null
+    exit
+fi
+
+if [ $# -eq 2 ]
+then
+    grep $2 $1.txt 2>/dev/null
+fi

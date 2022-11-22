@@ -1,0 +1,69 @@
+
+# Emacs
+
+
+## Generales
+
+ C-x C-f  Abrir archivo             
+ C-x C-s  Guardar buffer            
+ C-x k    Matar buffer              
+ C-x b    Intercambiar buffer       
+ C-g      ¡Salir de aquí!           
+ C-x 0    Cierra ventana activa     
+ C-x 1    Cierra demás ventanas     
+ C-x 2    Dividir en horizontal     
+ C-x 3    Dividir en vertical       
+ M-o      Cambiar de ventana activa 
+ C-s      Buscar                    
+ M-%      Reemplazar                
+ C-M-%    Reemplazar regexp         
+ C-x u    Deshacer                  
+ C-w      Cortar                    
+ C-y      Pegar                     
+
+
+## Teclas del speedbar
+
+ F8     Abre o cierra el speedbar             
+ b/f    Cambia  a vista de buffers o ficheros 
+ +/-    Expande o contrae un nodo             
+ k      Cierra un buffer                      
+                                              
+
+
+## Configuradas por mi:
+
+ C-I            Autoformateo (key mía)            
+ C-c q          Activar justificado a 80 columnas 
+ C-c b b j      Para leer el bbj                  
+ C-x w          Para leer feeds rss con elfeed    
+ C-S <arrow>    Intercambia el buffer hacia el buffer de ese lado
+ C-x t          Traduce el buffer 
+ C-x c          Corrige la ortografía de la palabra activa
+ C-x ñ          Mata todos los buffers menos el activo
+ 
+ F5             Compila con make o cargo 
+ F6             Repite el último comando ejecutado con shell-command
+ F7             Abre una shell
+ F8             Activa el speedbar
+
+ C-e            Va al final del buffer
+ C-a            Va al principio del buffer
+ C-d            Retrocede página
+ C-u            Avanza página
+ C-x p          Activa los favoritos de eww
+ 
+ M-c            Comenta/descomenta una región
+ M-q            Wrappea o deswrappea un párrafo
+ C-c q          Activa o desactiva el wrapeado para todo un buffer
+ M-p            Auto indenta un buffer
+                                              
+
+## Teclas para elfeed
+
+ G            actualiza los feeds                         
+ s            busca un topic.                             
+ s +etiqueta  busca una etiqueta                          
+ c            limpia el filtro de búsqueda y muestra todo 
+ b            abre la página el buscador principal        
+                                                          

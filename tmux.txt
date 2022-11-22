@@ -1,0 +1,30 @@
+# Ayuda de tmux
+
+## Gestión de sesiones
+
+ tmux new -s nuevaSesion       Crea una nueva sesión
+ tmux detach                   Descopla la sesión de la terminal
+ tmux attach -t nuevaSesion    Acopla la sesión a la terminal
+ tmux attach:                  Sin nada más, acopla tmux a la única sesión existente
+
+
+## Gestión de ventana
+
+ Ctrl+a d       Desacopla de la sesión actual
+ Ctrl+a c       Crea una ventana
+ Ctrl+a w       Lista ventanas
+ Ctrl+a n       Cambia a la siguiente ventana
+ Ctrl+a p       Cambia a la previa
+ Ctrl+a [0-9]   Cambia a esa ventana
+ Ctrl+a &       Cierra y mata una ventana
+ Ctrl+a ,       Nombra una ventana
+ Ctrl+a f       Busca ventana por nombres
+
+
+## Gestión de paneles
+
+ Ctrl+a %       Divide en paneles verticales
+ Ctrl+a "       Divide en paneles horizontales
+ Ctrl+a o       Pasar a otro panel
+ Ctrl+a x       Mata un panel
+

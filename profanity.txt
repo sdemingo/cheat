@@ -1,0 +1,4 @@
+# Teclas de profanity
+
+/chat presence none     Elimina los mensajes de salida de usuarios en el canal principal
+/room presence none     Elimina los mensajes de salida de usuarios ese canal
