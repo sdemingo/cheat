@@ -1,0 +1,35 @@
+
+# Comandos docker
+
+ docker create <image>      Crea el contenedor
+ docker run <image>         create + start
+
+ docker start <container>       Inicia un contenedor
+ docker stop <container>        Para un contenedor
+ docker kill <container>        Aborta un contenedor
+ docker restart <container>     stop + start
+ docker pause <container>       Suspende el contenedor
+ docker unpause <container>     Reanuda el contenedor
+ docker rm <container>          Destruye el contenedor
+ docker rm -f <container>       kill + rm
+
+
+ docker ps                  Lista contenedores ejecutandose
+ docker ps -a               Lista todos los contenedores
+ docker logs <container>    Muestra los logs del contenedor
+ docker top <container>     Muestra los procesos activos en un contenedor
+ 
+
+ docker attach <container>      Se une a un contenedor
+
+ docker images              Lista todas las imagenes locales
+ docker tag <image> <tag>   Etiqueta una imagen
+ docker rmi <image>         Borra una imagen
+
+
+
+## Copiando ficheros
+
+ docker cp container:path host:path     Copia ficheros cont->host
+ docker cp host:path container:path     Copia ficheros host->cont
+
