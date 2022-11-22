@@ -1,19 +1,28 @@
 #!/bin/bash
 
+CHEAT="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+
 if [ $# -eq 0 ]
 then
-    ls *.* | sed 's/.txt//g'
+    for f in `ls $CHEAT/*.*`
+    do
+        f=`basename "$f"`
+        if [ "$f" != "README.md" ]
+        then
+            echo $f | sed 's/.txt//g'
+        fi
+    done
     exit
 fi
 
 
 if [ $# -eq 1 ]
 then
-    cat $1.txt 2>/dev/null
+    cat $CHEAT/$1.txt 2>/dev/null
     exit
 fi
 
 if [ $# -eq 2 ]
 then
-    grep $2 $1.txt 2>/dev/null
+    grep $2 CHEAT/$1.txt 2>/dev/null
 fi
