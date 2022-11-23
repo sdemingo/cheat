@@ -1,0 +1,20 @@
+# Nano
+
+ Alt + J    Trunca la línea añadiendo saltos
+ Alt + $    Activa el softwrapping en base al ancho de la pantalla
+ Alt + L    Ajuste estricto de líneas largas activar/desactivar
+ Alt + J    Justificar el fichero completo
+ Alt + D    Contar el número de palabras, líneas y caracteres
+
+ Alt + Y    Coloreado de sintaxis activar/desactivar
+
+ Alt + U    Deshacer la última operación
+ Alt + E    Rehacer la última operación deshecha
+
+ Alt + W    Buscar hacia delante
+ Ctl + Q    Buscar hacia atrás una cadena o expresión regular
+ Alt + Q    Seguir buscando hacia atrás
+
+
+
+

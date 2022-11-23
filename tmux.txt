@@ -10,6 +10,9 @@
 
 ## Gestión de ventana
 
+ Ctrl+a s	Intercambia entre sesiones mostrando todas
+ Ctrl+a )	Salta a la siguiente sesión
+
  Ctrl+a d       Desacopla de la sesión actual
  Ctrl+a c       Crea una ventana
  Ctrl+a w       Lista ventanas
