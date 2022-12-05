@@ -66,4 +66,11 @@
  s +etiqueta  busca una etiqueta                          
  c            limpia el filtro de búsqueda y muestra todo 
  b            abre la página el buscador principal        
-                                                          
+
+
+## Teclas de markdown
+
+ C-c C-c p      renderiza el html en un fichero temporal y lo abre en el browser
+ C-c C-c m      renderiza el html en un fichero html junto al markdown
+ C-c C-d        marca como hecha/no hecha una tarea
+ C-c C-o        sigue un enlace
