@@ -57,7 +57,15 @@
  M-q            Wrappea o deswrappea un párrafo
  C-c q          Activa o desactiva el wrapeado para todo un buffer
  M-p            Auto indenta un buffer
-                                              
+
+## Teclas para Latex:
+
+ C-l c          Contador de palabras
+ C-l r          Limpia archivos temporales
+ C-l e          Crea entorno nuevo
+ C-l s          Crea diapositiva nueva
+ C-l i          Inserta imagen
+ C-l k          Inserta bloque de código                                              
 
 ## Teclas para elfeed
 
