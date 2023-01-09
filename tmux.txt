@@ -6,6 +6,10 @@
  tmux detach                   Descopla la sesión de la terminal
  tmux attach -t nuevaSesion    Acopla la sesión a la terminal
  tmux attach:                  Sin nada más, acopla tmux a la única sesión existente
+ tmux ls                       Lista sesiones activas
+
+ tmux rename-session -t sesion nuevoNombre Renombra una sesión
+
 
 
 ## Gestión de ventana
