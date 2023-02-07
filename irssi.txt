@@ -11,3 +11,5 @@
  Atl →          Carga la ventana de la derecha
  Alt ←          Carga la ventana de la izquierda
  Alt N          Carga la ventana número N
+
+ Ctrl x		Cambia de servidor
