@@ -31,7 +31,7 @@
                                               
 
 
-## Configuradas por mi:
+## Generales
 
  C-I            Autoformateo (key mía)            
  C-c q          Activar justificado a 80 columnas 
@@ -51,7 +51,6 @@
  C-a            Va al principio del buffer
  C-d            Retrocede página
  C-u            Avanza página
- C-x p          Activa los favoritos de eww
  
  M-c            Comenta/descomenta una región
  M-q            Wrappea o deswrappea un párrafo
@@ -75,6 +74,9 @@
  c            limpia el filtro de búsqueda y muestra todo 
  b            abre la página el buscador principal        
 
+## Teclas para eww
+ C-x p         Activa los favoritos de eww
+ .             Activa el truncado de líneas 
 
 ## Teclas de markdown
 
