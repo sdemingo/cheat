@@ -58,6 +58,8 @@
  C-c q          Activa o desactiva el wrapeado para todo un buffer
  M-p            Auto indenta un buffer
 
+ C-c w          Cuenta letras y palabras
+
 ## Teclas para Latex:
 
  C-l c          Contador de palabras
@@ -82,3 +84,5 @@
  C-c C-c m      renderiza el html en un fichero html junto al markdown
  C-c C-d        marca como hecha/no hecha una tarea
  C-c C-o        sigue un enlace
+ C-c h          escondo enlaces
+ Shif Tab       contraigo/muestro encabezados
